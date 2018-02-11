@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		524749EC6392A9E00E77CCA9 /* Pods_Connect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0AEA9F2BFD12D572E16BC8F /* Pods_Connect.framework */; };
+		695FFA052030D5DD000F1558 /* GradientV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695FFA042030D5DD000F1558 /* GradientV.swift */; };
 		69A22450202FC91D00E4593F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A2244E202FC91D00E4593F /* SWRevealViewController.m */; };
 		69A22455202FD21E00E4593F /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A22454202FD21E00E4593F /* ChannelVC.swift */; };
 		69A22457202FD23700E4593F /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A22456202FD23700E4593F /* ChatVC.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		695FFA042030D5DD000F1558 /* GradientV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientV.swift; sourceTree = "<group>"; };
 		69A2244D202FC91C00E4593F /* Connect-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Connect-Bridging-Header.h"; sourceTree = "<group>"; };
 		69A2244E202FC91D00E4593F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		69A2244F202FC91D00E4593F /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 		69A22451202FCE0500E4593F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				695FFA042030D5DD000F1558 /* GradientV.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			files = (
 				69A22457202FD23700E4593F /* ChatVC.swift in Sources */,
 				69C298CA202F880500F1BAFF /* AppDelegate.swift in Sources */,
+				695FFA052030D5DD000F1558 /* GradientV.swift in Sources */,
 				69A22455202FD21E00E4593F /* ChannelVC.swift in Sources */,
 				69A22450202FC91D00E4593F /* SWRevealViewController.m in Sources */,
 			);
