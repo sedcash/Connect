@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		524749EC6392A9E00E77CCA9 /* Pods_Connect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0AEA9F2BFD12D572E16BC8F /* Pods_Connect.framework */; };
+		69A22450202FC91D00E4593F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A2244E202FC91D00E4593F /* SWRevealViewController.m */; };
 		69C298CA202F880500F1BAFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C298C9202F880500F1BAFF /* AppDelegate.swift */; };
 		69C298CC202F880500F1BAFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C298CB202F880500F1BAFF /* ViewController.swift */; };
 		69C298CF202F880500F1BAFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69C298CD202F880500F1BAFF /* Main.storyboard */; };
@@ -15,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		69A2244D202FC91C00E4593F /* Connect-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Connect-Bridging-Header.h"; sourceTree = "<group>"; };
+		69A2244E202FC91D00E4593F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		69A2244F202FC91D00E4593F /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		69C298C6202F880500F1BAFF /* Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Connect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69C298C9202F880500F1BAFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69C298CB202F880500F1BAFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		69C298D0202F880500F1BAFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69C298D3202F880500F1BAFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69C298D5202F880500F1BAFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C90A527CB6E7EF36F313252B /* Pods-Connect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Connect.release.xcconfig"; path = "Pods/Target Support Files/Pods-Connect/Pods-Connect.release.xcconfig"; sourceTree = "<group>"; };
+		D0AEA9F2BFD12D572E16BC8F /* Pods_Connect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Connect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D61443C25069E25B0C5609AD /* Pods-Connect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Connect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Connect/Pods-Connect.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				524749EC6392A9E00E77CCA9 /* Pods_Connect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34817610DDEDAF9D1057A42E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D61443C25069E25B0C5609AD /* Pods-Connect.debug.xcconfig */,
+				C90A527CB6E7EF36F313252B /* Pods-Connect.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		69A2244C202FC8A500E4593F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69A2244F202FC91D00E4593F /* SWRevealViewController.h */,
+				69A2244E202FC91D00E4593F /* SWRevealViewController.m */,
+				69A2244D202FC91C00E4593F /* Connect-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		69C298BD202F880500F1BAFF = {
 			isa = PBXGroup;
 			children = (
 				69C298C8202F880500F1BAFF /* Connect */,
 				69C298C7202F880500F1BAFF /* Products */,
+				34817610DDEDAF9D1057A42E /* Pods */,
+				95196CAFA2300012341E21F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +84,7 @@
 		69C298C8202F880500F1BAFF /* Connect */ = {
 			isa = PBXGroup;
 			children = (
+				69A2244C202FC8A500E4593F /* Supporting Files */,
 				69C298C9202F880500F1BAFF /* AppDelegate.swift */,
 				69C298CB202F880500F1BAFF /* ViewController.swift */,
 				69C298CD202F880500F1BAFF /* Main.storyboard */,
@@ -64,6 +95,14 @@
 			path = Connect;
 			sourceTree = "<group>";
 		};
+		95196CAFA2300012341E21F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0AEA9F2BFD12D572E16BC8F /* Pods_Connect.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69C298D8202F880500F1BAFF /* Build configuration list for PBXNativeTarget "Connect" */;
 			buildPhases = (
+				0DF65DAC7A8095D324035809 /* [CP] Check Pods Manifest.lock */,
 				69C298C2202F880500F1BAFF /* Sources */,
 				69C298C3202F880500F1BAFF /* Frameworks */,
 				69C298C4202F880500F1BAFF /* Resources */,
+				A7F1FAB06F685ECA9C48FDC3 /* [CP] Embed Pods Frameworks */,
+				27DAA249395C7D8D7DCB7B1C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +138,7 @@
 				TargetAttributes = {
 					69C298C5202F880500F1BAFF = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,6 +174,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DF65DAC7A8095D324035809 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Connect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27DAA249395C7D8D7DCB7B1C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Connect/Pods-Connect-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7F1FAB06F685ECA9C48FDC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Connect/Pods-Connect-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Connect/Pods-Connect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		69C298C2202F880500F1BAFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -138,6 +241,7 @@
 			files = (
 				69C298CC202F880500F1BAFF /* ViewController.swift in Sources */,
 				69C298CA202F880500F1BAFF /* AppDelegate.swift in Sources */,
+				69A22450202FC91D00E4593F /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,13 +376,17 @@
 		};
 		69C298D9202F880500F1BAFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D61443C25069E25B0C5609AD /* Pods-Connect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Connect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sedcash.Connect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Connect/Supporting Files/Connect-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,13 +394,16 @@
 		};
 		69C298DA202F880500F1BAFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C90A527CB6E7EF36F313252B /* Pods-Connect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Connect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sedcash.Connect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Connect/Supporting Files/Connect-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
